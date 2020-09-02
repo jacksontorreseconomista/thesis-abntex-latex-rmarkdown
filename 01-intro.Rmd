@@ -1,0 +1,95 @@
+\textual
+
+\pagestyle{simple}
+
+\chapter[INTRODUÇÃO]{INTRODUÇÃO}
+
+Este projeto é uma adaptação para o ambiente R Markdown utilizando a ferramenta bookdown combinando o modelo canônico de trabalho acadêmicos da \abnTeX e a adapatação para UFPR realizada por Emilio E Kawamura.
+
+Nesse sentido esse documento de exemplo conterá as redações idendicas destes dois trabalhos, com acréscimo de exemplos de utilização e visualização de códigos em linguagem R. 
+
+Este documento e seu código-fonte são exemplos de referência de uso da classe
+\textcite{abntex2} e do pacote \textcite{abntex2cite}. O documento 
+exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
+gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
+- Trabalhos acadêmicos - Apresentação}.
+
+A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
+modelo específico de nenhuma universidade ou instituição, mas que implementa tão
+somente os requisitos das normas da ABNT. Uma lista completa das normas
+observadas pelo \abnTeX\ é apresentada em \textcite{abntex2classe}.
+
+Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
+\url{http://www.abntex.net.br/}. Também fique livre para conhecer,
+estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
+modificados tenham seus nomes alterados e que os créditos sejam dados aos
+autores originais, nos termos da ``The \LaTeX\ Project Public
+License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
+
+Encorajamos que sejam realizadas customizações específicas deste exemplo para
+universidades e outras instituições --- como capas, folha de aprovação, etc.
+Porém, recomendamos que ao invés de se alterar diretamente os arquivos do
+\abnTeX, distribua-se arquivos com as respectivas customizações.
+Isso permite que futuras versões do \abnTeX~não se tornem automaticamente
+incompatíveis com as customizações promovidas. 
+
+Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ 
+\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textcite{memoir}
+\cite{memoir}. 
+
+Esperamos, sinceramente, que o \abnTeX\ aprimore a qualidade do trabalho que
+você produzirá, de modo que o principal esforço seja concentrado no principal:
+na contribuição científica.
+
+Equipe \abnTeX 
+
+Lauro César Araujo
+
+
+Para obter os melhores resultados, compile este modelo usando a seguinte sequência de passos:
+
+\begin{quote}
+\begin{footnotesize}
+\begin{verbatim}
+pdflatex  main          // compilação inicial
+bibtex main             // processa referências bibliográficas
+pdflatex  main          // compilação final
+\end{verbatim}
+\end{footnotesize}
+\end{quote}
+
+ou
+
+\begin{quote}
+\begin{footnotesize}
+\begin{verbatim}
+make                    // faz tudo...
+\end{verbatim}
+\end{footnotesize}
+\end{quote}
+
+Os principais itens considerados na formatação deste documento foram:
+
+\begin{itemize}
+
+\item Papel em formato A4, com margens de 20 mm à direita e embaixo, 30 mm nos demais lados. Não devem ser usados cabeçalhos ou rodapés além dos que estão aqui propostos.
+
+\item O texto principal do documento escrito em 12 pontos. O fonte principal do texto pode ser selecionado no arquivo \verb#packages.tex#.
+
+\item Código-fonte, listagens e textos similares são formatados em fonte Courier 12 ou 10 pontos.
+
+\item O espaçamento padrão entre linhas é 1,5 linhas (1 linha na versão final). Não inserir espaços adicionais entre parágrafos normais. Figuras, tabelas, listagens e listas de itens devem ter um espaço adicional antes e após os mesmos.
+
+\item As páginas iniciais não são numeradas.
+
+\item O corpo do texto é numerado com algarismos arábicos (1, 2, 3, ...) a partir da introdução, ate o final do documento. Os números de página devem estar situados no alto à direita (páginas direitas) ou à esquerda (páginas esquerdas).
+
+\item Expressões em inglês, grego, latim ou outras línguas devem ser enfatizadas em itálico, como \emph{sui generis} ou \emph{scheduling} (use o comando \verb#\emph{...}#).
+
+\item Para reforçar algo, deve-se usar somente \textbf{negrito}. \underline{Sublinhado} ou MAIÚSCULAS não devem ser usados como forma de ênfase!
+
+\item As notas de rodapé também têm um modelo\footnote{As notas de rodapé dever ser escritas em tamanho 10 pt, numeradas em arábico.}. Notas de rodapé servem para fazer algum comentário paralelo; não as use para colocar URLs, referências bibliográficas ou significado de siglas.
+
+\end{itemize}
+
+Felizmente o \LaTeX\ resolve a maior parte dessas questões!

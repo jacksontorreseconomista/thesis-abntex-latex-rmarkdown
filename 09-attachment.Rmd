@@ -1,0 +1,21 @@
+\ifthenelse{\equal{\terAnexo}{Sim}}{
+\begin{anexosenv}
+
+\renewcommand{\thechapter}{\arabic{chapter}}
+        
+\chapter{TABELAS DE VALORES}
+\lipsum[31] 
+
+\chapter{GRÁFICOS DE BALANCEAMENTO}
+
+\lipsum[32] 
+
+\end{anexosenv}
+}{}
+
+
+\ifthenelse{\equal{\terIndiceR}{Sim}}{
+\phantompart
+\printindex
+}{}
+

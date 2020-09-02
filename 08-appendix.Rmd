@@ -1,0 +1,11 @@
+\ifthenelse{\equal{\terApendice}{Sim}}
+{\begin{apendicesenv}
+
+\renewcommand{\thechapter}{\arabic{chapter}}
+
+\chapter{ESCOLHA DO MATERIAL DE IMPRESSÃO}
+
+\lipsum[30]
+
+\end{apendicesenv}
+}{}

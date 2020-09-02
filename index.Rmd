@@ -1,0 +1,39 @@
+--- 
+date: 2020
+author: "Nome do Discente"
+documentclass: 04-class-files/abntex2
+header-includes:
+#- \usepackage{UFPR}        
+- \input{00-input-datas/00-dados}
+- \input{09-packages/00-pacotes}
+#- \usepackage[alf]{abntex2cite}
+- \makeindex
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \DeclareUnicodeCharacter{0301}{*}
+site: bookdown::bookdown_site
+bibliography: '10-references/referencias.bib'
+biblio-style: abnt
+link-citations: yes
+fontsize: '12pt'
+side: 'oneside'
+spacing: onehalfspacing
+toc: false
+references: false
+---
+
+```{r setup, include=FALSE, echo=FALSE, message=FALSE, eval=FALSE}
+#knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE, fig.path="Images/")
+```
+
+```{r include=FALSE, echo=FALSE, message=FALSE, results='hide'}
+library(bookdown)
+library(latex2exp)
+library(latexpdf)
+library(knitLatex)
+library(knitr)
+library(tinytex)
+library(utf8)
+library(ggplot2)
+```
+
