@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.29)  2 SEP 2020 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.29)  2 SEP 2020 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2560,11 +2560,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1135.
  ) 
 Here is how much of TeX's memory you used:
- 42977 strings out of 482821
- 782682 string characters out of 5954238
- 1753236 words of memory out of 5000000
+ 42974 strings out of 482821
+ 782655 string characters out of 5954238
+ 1754238 words of memory out of 5000000
  56988 multiletter control sequences out of 15000+600000
- 619641 words of font info for 259 fonts, out of 8000000 for 9000
+ 619516 words of font info for 257 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  77i,19n,117p,2011b,4211s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
@@ -2593,7 +2593,7 @@ Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a
 .pfb></Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb></Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on thesis.pdf (81 pages, 3632069 bytes).
+Output written on thesis.pdf (81 pages, 3632077 bytes).
 PDF statistics:
  1230 PDF objects out of 1440 (max. 8388607)
  1069 compressed objects within 11 object streams
