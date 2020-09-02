@@ -2,11 +2,11 @@
 date: 2020
 author: "Nome do Discente"
 documentclass: 04-class-files/abntex2
+classoption: [12pt, openright, oneside, a4paper, chapter=TITLE, section=TITLE, subsection=Title, english, french, spanish, portugues, sumario=tradicional]
 header-includes:
 #- \usepackage{UFPR}        
 - \input{00-input-datas/00-dados}
 - \input{09-packages/00-pacotes}
-#- \usepackage[alf]{abntex2cite}
 - \makeindex
 - \usepackage{helvet}
 - \renewcommand{\familydefault}{\sfdefault}
@@ -15,11 +15,7 @@ site: bookdown::bookdown_site
 bibliography: '10-references/referencias.bib'
 biblio-style: abnt
 link-citations: yes
-fontsize: '12pt'
-side: 'oneside'
-spacing: onehalfspacing
 toc: false
-references: false
 ---
 
 ```{r setup, include=FALSE, echo=FALSE, message=FALSE, eval=FALSE}

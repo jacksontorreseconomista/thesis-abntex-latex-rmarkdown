@@ -219,6 +219,7 @@
 % Espacamento entre linhas - NBR 14724/2011 - 5.2 Espacamento
 % ---
 \OnehalfSpacing
+%\DoubleSpacing
 % ---
 
 % ------------------------------------------------------------------------
