@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.29)  2 SEP 2020 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.29)  3 SEP 2020 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2279,7 +2279,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-51.
+39.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [14]) [15] [16
@@ -2310,7 +2310,7 @@ Underfull \hbox (badness 3954) in paragraph at lines 116--116
  []
 
 [23]
-<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=380, 847.165pt x 314.173
+<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=364, 847.165pt x 314.173
 75pt>
 File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
@@ -2324,7 +2324,7 @@ File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf  use
 d on input line 226.
 (pdftex.def)             Requested size: 454.99329pt x 168.73566pt.
-<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=383, page=1, 847.165pt x
+<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=367, page=1, 847.165pt x
  314.17375pt>
 File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
@@ -2350,60 +2350,21 @@ File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf , pa
 ge1 used on input line 226.
 (pdftex.def)             Requested size: 423.58145pt x 157.08649pt.
-<11-importedfigures/abntex2-modelo-img-marca.pdf, id=386, 227.51701pt x 72.2695
-pt>
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf  used 
-on input line 245.
-(pdftex.def)             Requested size: 181.99649pt x 57.81013pt.
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf  used 
-on input line 245.
-(pdftex.def)             Requested size: 181.99649pt x 57.81013pt.
-<11-importedfigures/abntex2-modelo-img-marca.pdf, id=389, page=1, 227.51701pt x
- 72.2695pt>
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf, page 1>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf , page
-1 used on input line 245.
-(pdftex.def)             Requested size: 227.51645pt x 72.2693pt.
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf, page 1>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf , page
-1 used on input line 245.
-(pdftex.def)             Requested size: 204.76341pt x 65.04192pt.
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf, page 1>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf , page
-1 used on input line 245.
-(pdftex.def)             Requested size: 204.76341pt x 65.04192pt.
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf, page 1>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf , page
-1 used on input line 245.
-(pdftex.def)             Requested size: 204.76341pt x 65.04192pt.
-File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
-<use 11-importedfigures/abntex2-modelo-img-grafico.pdf>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf  use
-d on input line 252.
-(pdftex.def)             Requested size: 169.43pt x 62.83363pt.
+LaTeX Warning: Reference `fig_minipage_imagem1' on page 24 undefined on input l
+ine 237.
+
+
+LaTeX Warning: Reference `fig_minipage_grafico2' on page 24 undefined on input 
+line 237.
+
 File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
 <use 11-importedfigures/abntex2-modelo-img-grafico.pdf, page 1>
 Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf , pa
 ge1 used on input line 271.
 (pdftex.def)             Requested size: 423.58145pt x 157.08649pt.
-File: 11-importedfigures/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
-<use 11-importedfigures/abntex2-modelo-img-marca.pdf, page 1>
-Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-marca.pdf , page
-1 used on input line 271.
-(pdftex.def)             Requested size: 204.76341pt x 65.04192pt.
-[24 <./11-importedfigures/abntex2-modelo-img-grafico.pdf> <./11-importedfigures
-/abntex2-modelo-img-marca.pdf>] [25 <./11-importedfigures/abntex2-modelo-img-gr
-afico.pdf>] [26]
+[24 <./11-importedfigures/abntex2-modelo-img-grafico.pdf>] [25] [26]
 Overfull \hbox (26.65024pt too wide) in paragraph at lines 382--382
 []   \T1/lmtt/m/n/12 \usepackage{indentfirst}      % Indenta o primeiro parágra
 fo de cada seção.[] 
@@ -2439,7 +2400,7 @@ Overfull \hbox (26.65024pt too wide) in paragraph at lines 481--481
 es internas entre[] 
  []
 
-[29] [30] [31] [32]
+[29] [30] [31]
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
 689.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
@@ -2450,93 +2411,127 @@ Underfull \hbox (badness 3503) in paragraph at lines 726--728
 github . com / abntex / abntex2 / wiki /
  []
 
-) [33] [34
+) [32] [33
 
 
-] [35
+] [34
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 388.
-[36
-
-]
-<thesis_files/figure-latex/unnamed-chunk-6-1.pdf, id=613, 355.3275pt x 352.3162
+<thesis_files/figure-latex/unnamed-chunk-6-1.pdf, id=544, 355.3275pt x 352.3162
 5pt>
 File: thesis_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-6-1.pdf  used 
-on input line 448.
+on input line 425.
 (pdftex.def)             Requested size: 355.32661pt x 352.31538pt.
-[37 <./thesis_files/figure-latex/unnamed-chunk-6-1.pdf>] [38] [39]
-Overfull \hbox (88.40027pt too wide) in paragraph at lines 608--608
-[]     \T1/lmtt/m/n/12 (Intercept)       Agriculture       Examination         
-Education          Catholic[] 
+[35
+
+]
+<thesis_files/figure-latex/unnamed-chunk-7-1.pdf, id=550, 275.0275pt x 284.0612
+5pt>
+File: thesis_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-7-1.pdf  used 
+on input line 447.
+(pdftex.def)             Requested size: 275.052pt x 284.08653pt.
+[36 <./thesis_files/figure-latex/unnamed-chunk-6-1.pdf>] [37 <./thesis_files/fi
+gure-latex/unnamed-chunk-7-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-11-1.pdf, id=582, 320.19624pt x 287.07
+25pt>
+File: thesis_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-11-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-11-1.pdf  used
+ on input line 550.
+(pdftex.def)             Requested size: 320.20033pt x 287.07617pt.
+[38] [39 <./thesis_files/figure-latex/unnamed-chunk-11-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-13-1.pdf, id=602, 332.24126pt x 322.20
+375pt>
+File: thesis_files/figure-latex/unnamed-chunk-13-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-13-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-13-1.pdf  used
+ on input line 645.
+(pdftex.def)             Requested size: 332.25563pt x 322.2177pt.
+[40] [41 <./thesis_files/figure-latex/unnamed-chunk-13-1.pdf>] [42] [43]
+<thesis_files/figure-latex/unnamed-chunk-20-1.pdf, id=637, 256.96pt x 214.8025p
+t>
+File: thesis_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-20-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-20-1.pdf  used
+ on input line 866.
+(pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
+[44]
+<thesis_files/figure-latex/unnamed-chunk-21-1.pdf, id=643, 256.96pt x 214.8025p
+t>
+File: thesis_files/figure-latex/unnamed-chunk-21-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-21-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-21-1.pdf  used
+ on input line 888.
+(pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
+[45 <./thesis_files/figure-latex/unnamed-chunk-20-1.pdf> <./thesis_files/figure
+-latex/unnamed-chunk-21-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-22-1.pdf, id=662, 256.96pt x 214.8025p
+t>
+File: thesis_files/figure-latex/unnamed-chunk-22-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-22-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-22-1.pdf  used
+ on input line 896.
+(pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
+<thesis_files/figure-latex/unnamed-chunk-23-1.pdf, id=663, 256.96pt x 178.6675p
+t>
+File: thesis_files/figure-latex/unnamed-chunk-23-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-23-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-23-1.pdf  used
+ on input line 926.
+(pdftex.def)             Requested size: 256.97112pt x 178.67523pt.
+[46 <./thesis_files/figure-latex/unnamed-chunk-22-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-24-1.pdf, id=675, 256.96pt x 214.8025p
+t>
+File: thesis_files/figure-latex/unnamed-chunk-24-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/unnamed-chunk-24-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-24-1.pdf  used
+ on input line 949.
+(pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
+[47 <./thesis_files/figure-latex/unnamed-chunk-23-1.pdf> <./thesis_files/figure
+-latex/unnamed-chunk-24-1.pdf>]
+<thesis_files/figure-latex/lmBothChunk-1.pdf, id=695, 256.96pt x 214.8025pt>
+File: thesis_files/figure-latex/lmBothChunk-1.pdf Graphic file (type pdf)
+<use thesis_files/figure-latex/lmBothChunk-1.pdf>
+Package pdftex.def Info: thesis_files/figure-latex/lmBothChunk-1.pdf  used on i
+nput line 975.
+(pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
+
+Overfull \hbox (32.82524pt too wide) in paragraph at lines 987--987
+[]\T1/lmtt/m/n/12 ##                                Estimate   Std. Error    t 
+value     Pr(>|t|)[] 
  []
 
 
-Overfull \hbox (88.37225pt too wide) in paragraph at lines 609--609
-[]         \T1/lmtt/m/n/12 66.9152           -0.1721           -0.2580         
-  -0.8709            0.1041[] 
- []
-
-[40] [41]
-Overfull \hbox (100.75027pt too wide) in paragraph at lines 731--731
-[]          \T1/lmtt/m/n/12 (Intercept)  I(1 * (spray == "B"))  I(1 * (spray ==
- "C"))  I(1 * (spray == "D"))[] 
+Overfull \hbox (32.76921pt too wide) in paragraph at lines 988--988
+[]\T1/lmtt/m/n/12 ## (Intercept)                603.50579986 171.05519432  3.52
+81349 0.0004386682[] 
  []
 
 
-Overfull \hbox (100.73627pt too wide) in paragraph at lines 732--732
-[]              \T1/lmtt/m/n/12 14.5000                 0.8333               -1
-2.4167                -9.5833[] 
- []
-
-[42] [43]
-Overfull \hbox (125.45029pt too wide) in paragraph at lines 878--878
-[]                               \T1/lmtt/m/n/12 Indicator Data.Source PUBLISH.
-STATES Year            WHO.region 
+Overfull \hbox (32.76921pt too wide) in paragraph at lines 989--989
+[]\T1/lmtt/m/n/12 ## hunger$Year                 -0.29339638   0.08546675 -3.43
+28718 0.0006231690[] 
  []
 
 
-Overfull \hbox (125.43628pt too wide) in paragraph at lines 879--879
-[]\T1/lmtt/m/n/12 1 Children aged <5 years underweight (%) NLIS_310044      Pub
-lished 1986                Africa[] 
+Overfull \hbox (32.7622pt too wide) in paragraph at lines 990--990
+[]\T1/lmtt/m/n/12 ## hunger$SexMale              61.94771998 241.90857572  0.25
+60791 0.7979455842[] 
  []
 
 
-Overfull \hbox (125.43628pt too wide) in paragraph at lines 880--880
-[]\T1/lmtt/m/n/12 2 Children aged <5 years underweight (%) NLIS_310233      Pub
-lished 1990              Americas[] 
+Overfull \hbox (32.81123pt too wide) in paragraph at lines 991--991
+[]\T1/lmtt/m/n/12 ## hunger$Year:hunger$SexMale  -0.03000132   0.12086823 -0.24
+82151 0.8040219874[] 
  []
 
-
-Overfull \hbox (125.44328pt too wide) in paragraph at lines 881--881
-[]\T1/lmtt/m/n/12 3 Children aged <5 years underweight (%) NLIS_312902      Pub
-lished 2005              Americas[] 
- []
-
-
-Overfull \hbox (125.45029pt too wide) in paragraph at lines 882--882
-[]\T1/lmtt/m/n/12 5 Children aged <5 years underweight (%) NLIS_312522      Pub
-lished 2002 Eastern Mediterranean[] 
- []
-
-
-Overfull \hbox (125.43628pt too wide) in paragraph at lines 883--883
-[]\T1/lmtt/m/n/12 6 Children aged <5 years underweight (%) NLIS_312955      Pub
-lished 2008                Africa[] 
- []
-
-
-Overfull \hbox (125.43628pt too wide) in paragraph at lines 884--884
-[]\T1/lmtt/m/n/12 8 Children aged <5 years underweight (%) NLIS_312963      Pub
-lished 2008                Africa[] 
- []
-
-[44] [45] [46] [47] [48] [49
-
-] [50
+[48 <./thesis_files/figure-latex/lmBothChunk-1.pdf>] [49] [50
 
 ] [51
 
@@ -2544,9 +2539,11 @@ lished 2008                Africa[]
 
 ] [53
 
+] [54
+
 ] 
 AED: lastpage setting LastPage
-[54
+[55
 
 ]
 \tf@lof=\write9
@@ -2555,24 +2552,27 @@ AED: lastpage setting LastPage
 \tf@toc=\write10
 \openout10 = `thesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1084.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1084.
 (./thesis.aux (./03-tex-files/abntex2-modelo-include-comandos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1135.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1084.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1084.
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1135.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1084.
  ) 
 Here is how much of TeX's memory you used:
- 42929 strings out of 482821
- 781988 string characters out of 5954238
- 1745839 words of memory out of 5000000
- 56959 multiletter control sequences out of 15000+600000
- 614481 words of font info for 257 fonts, out of 8000000 for 9000
+ 42959 strings out of 482821
+ 784152 string characters out of 5954238
+ 1745066 words of memory out of 5000000
+ 56991 multiletter control sequences out of 15000+600000
+ 614356 words of font info for 255 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,19n,117p,2011b,4211s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,19n,117p,1151b,4211s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 }{/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 }{/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
@@ -2598,10 +2598,10 @@ jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
 Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
 pfb></Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/u
 hvro8a.pfb>
-Output written on thesis.pdf (55 pages, 3620114 bytes).
+Output written on thesis.pdf (56 pages, 3845467 bytes).
 PDF statistics:
- 1108 PDF objects out of 1200 (max. 8388607)
- 975 compressed objects within 10 object streams
- 221 named destinations out of 1000 (max. 500000)
- 29435 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1102 PDF objects out of 1200 (max. 8388607)
+ 959 compressed objects within 10 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 29420 words of extra memory for PDF output out of 29859 (max. 10000000)
 

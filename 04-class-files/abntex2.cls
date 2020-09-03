@@ -1251,7 +1251,7 @@
     \ifthenelse{\equal \ImprimirSetor{}}{}{
     \ABNTEXchapterfont 
     \MakeUppercase\ImprimirSetor}
-        \vspace{-2mm}
+        \vspace{1mm} % ALTERADO
     
     \ifthenelse{\equal \ImprimirProgramaPos{}}{}{
     \ABNTEXchapterfont 

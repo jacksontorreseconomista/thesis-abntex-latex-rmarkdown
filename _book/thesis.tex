@@ -369,7 +369,7 @@ Segunda opção, utilizando \texttt{ref}: Ver o Quadro \ref{quadro_exemplo}.
 
 Abaixo é um teste para geração de Tabelas com código R dentro do environment Latex
 
-\begin{tabular}{l|l}
+\begin{tabular}{c|c}
 \hline
 Simbolo & Descrição\\
 \hline
@@ -395,53 +395,30 @@ A média do vetor é: 6
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{summary}\NormalTok{(mtcars)}
+\KeywordTok{summary}\NormalTok{(}\KeywordTok{lm}\NormalTok{(}\DataTypeTok{formula =}\NormalTok{ mpg }\OperatorTok{~}\StringTok{ }\NormalTok{., }\DataTypeTok{data =}\NormalTok{ mtcars))}\OperatorTok{$}\NormalTok{coefficients}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
-  mpg             cyl             disp             hp       
+##                Estimate  Std. Error    t value   Pr(>|t|)
+## (Intercept) 12.30337416 18.71788443  0.6573058 0.51812440
+## cyl         -0.11144048  1.04502336 -0.1066392 0.91608738
+## disp         0.01333524  0.01785750  0.7467585 0.46348865
+## hp          -0.02148212  0.02176858 -0.9868407 0.33495531
+## drat         0.78711097  1.63537307  0.4813036 0.63527790
+## wt          -3.71530393  1.89441430 -1.9611887 0.06325215
+## qsec         0.82104075  0.73084480  1.1234133 0.27394127
+## vs           0.31776281  2.10450861  0.1509915 0.88142347
+## am           2.52022689  2.05665055  1.2254035 0.23398971
+## gear         0.65541302  1.49325996  0.4389142 0.66520643
+## carb        -0.19941925  0.82875250 -0.2406258 0.81217871
 \end{verbatim}
-
-Min. :10.40 Min. :4.000 Min. : 71.1 Min. : 52.0\\
-1st Qu.:15.43 1st Qu.:4.000 1st Qu.:120.8 1st Qu.: 96.5\\
-Median :19.20 Median :6.000 Median :196.3 Median :123.0\\
-Mean :20.09 Mean :6.188 Mean :230.7 Mean :146.7\\
-3rd Qu.:22.80 3rd Qu.:8.000 3rd Qu.:326.0 3rd Qu.:180.0\\
-Max. :33.90 Max. :8.000 Max. :472.0 Max. :335.0\\
-drat wt qsec vs\\
-Min. :2.760 Min. :1.513 Min. :14.50 Min. :0.0000\\
-1st Qu.:3.080 1st Qu.:2.581 1st Qu.:16.89 1st Qu.:0.0000\\
-Median :3.695 Median :3.325 Median :17.71 Median :0.0000\\
-Mean :3.597 Mean :3.217 Mean :17.85 Mean :0.4375\\
-3rd Qu.:3.920 3rd Qu.:3.610 3rd Qu.:18.90 3rd Qu.:1.0000\\
-Max. :4.930 Max. :5.424 Max. :22.90 Max. :1.0000\\
-am gear carb\\
-Min. :0.0000 Min. :3.000 Min. :1.000\\
-1st Qu.:0.0000 1st Qu.:3.000 1st Qu.:2.000\\
-Median :0.0000 Median :4.000 Median :2.000\\
-Mean :0.4062 Mean :3.688 Mean :2.812\\
-3rd Qu.:1.0000 3rd Qu.:4.000 3rd Qu.:4.000\\
-Max. :1.0000 Max. :5.000 Max. :8.000
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{str}\NormalTok{(mtcars)}
 \end{Highlighting}
 \end{Shaded}
-
-`data.frame': 32 obs. of 11 variables:
-\$ mpg : num 21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 \ldots{}
-\$ cyl : num 6 6 4 6 8 6 8 4 4 6 \ldots{}
-\$ disp: num 160 160 108 258 360 \ldots{}
-\$ hp : num 110 110 93 110 175 105 245 62 95 123 \ldots{}
-\$ drat: num 3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 \ldots{}
-\$ wt : num 2.62 2.88 2.32 3.21 3.44 \ldots{}
-\$ qsec: num 16.5 17 18.6 19.4 17 \ldots{}
-\$ vs : num 0 0 1 1 0 1 0 1 1 1 \ldots{}
-\$ am : num 1 1 1 0 0 0 0 0 0 0 \ldots{}
-\$ gear: num 4 4 4 3 3 3 3 4 4 4 \ldots{}
-\$ carb: num 4 4 1 1 2 1 4 2 2 4 \ldots{}
 
 Modelo de gráfico em código R:
 
@@ -454,7 +431,7 @@ Modelo de gráfico em código R:
 
 \section{Regressão com Código R}
 
-Seguem abaixo exemplos\footnote{Os exemplos demonstrados são reproduções de partes do curso de Regressão Linear da Universidade Johns Hopkins} de inserção de códigos R para captura, tratamento, exploração, análises econométrica, predições, construção de algorítimos e formulas.
+Seguem abaixo exemplos - reproduções de partes do curso de Regressão Linear da Universidade Johns Hopkins - de inserção de códigos R para captura, tratamento, exploração, análises econométrica, predições, construção de algorítimos e formulas.
 
 \hypertarget{swiss-fertility-data}{%
 \subsection{Swiss fertility data}\label{swiss-fertility-data}}
@@ -462,9 +439,12 @@ Seguem abaixo exemplos\footnote{Os exemplos demonstrados são reproduções de p
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(datasets); }\KeywordTok{data}\NormalTok{(swiss); }\KeywordTok{require}\NormalTok{(stats); }\KeywordTok{require}\NormalTok{(graphics)}
-\KeywordTok{pairs}\NormalTok{(swiss, }\DataTypeTok{panel =}\NormalTok{ panel.smooth, }\DataTypeTok{main =} \StringTok{"Swiss data"}\NormalTok{, }\DataTypeTok{col =} \DecValTok{3} \OperatorTok{+}\StringTok{ }\NormalTok{(swiss}\OperatorTok{$}\NormalTok{Catholic }\OperatorTok{>}\StringTok{ }\DecValTok{50}\NormalTok{))}
+\KeywordTok{pairs}\NormalTok{(swiss, }\DataTypeTok{panel =}\NormalTok{ panel.smooth, }\DataTypeTok{main =} \StringTok{"Swiss data"}\NormalTok{, }
+      \DataTypeTok{col =} \DecValTok{3} \OperatorTok{+}\StringTok{ }\NormalTok{(swiss}\OperatorTok{$}\NormalTok{Catholic }\OperatorTok{>}\StringTok{ }\DecValTok{50}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-7-1} \end{center}
 
 \hypertarget{swiss}{%
 \subsection{\texorpdfstring{\texttt{?swiss}}{?swiss}}\label{swiss}}
@@ -500,13 +480,13 @@ All variables but `Fertility' give proportions of the population.
 \texttt{summary(lm(Fertility\ \textasciitilde{}\ .\ ,\ data\ =\ swiss))}
 
 \begin{verbatim}
-                   Estimate  Std. Error   t value     Pr(>|t|)
-(Intercept)      66.9151817 10.70603759  6.250229 1.906051e-07
-Agriculture      -0.1721140  0.07030392 -2.448142 1.872715e-02
-Examination      -0.2580082  0.25387820 -1.016268 3.154617e-01
-Education        -0.8709401  0.18302860 -4.758492 2.430605e-05
-Catholic          0.1041153  0.03525785  2.952969 5.190079e-03
-Infant.Mortality  1.0770481  0.38171965  2.821568 7.335715e-03
+##                    Estimate  Std. Error
+## (Intercept)      66.9151817 10.70603759
+## Agriculture      -0.1721140  0.07030392
+## Examination      -0.2580082  0.25387820
+## Education        -0.8709401  0.18302860
+## Catholic          0.1041153  0.03525785
+## Infant.Mortality  1.0770481  0.38171965
 \end{verbatim}
 
 \hypertarget{example-interpretation}{%
@@ -533,24 +513,25 @@ Infant.Mortality  1.0770481  0.38171965  2.821568 7.335715e-03
 \end{Shaded}
 
 \begin{verbatim}
-              Estimate Std. Error   t value     Pr(>|t|)
-(Intercept) 60.3043752 4.25125562 14.185074 3.216304e-18
-Agriculture  0.1942017 0.07671176  2.531577 1.491720e-02
+##               Estimate Std. Error   t value     Pr(>|t|)
+## (Intercept) 60.3043752 4.25125562 14.185074 3.216304e-18
+## Agriculture  0.1942017 0.07671176  2.531577 1.491720e-02
 \end{verbatim}
 
 How can adjustment reverse the sign of an effect? Let's try a simulation.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{n <-}\StringTok{ }\DecValTok{100}\NormalTok{; x2 <-}\StringTok{ }\DecValTok{1} \OperatorTok{:}\StringTok{ }\NormalTok{n; x1 <-}\StringTok{ }\FloatTok{.01} \OperatorTok{*}\StringTok{ }\NormalTok{x2 }\OperatorTok{+}\StringTok{ }\KeywordTok{runif}\NormalTok{(n, }\FloatTok{-.1}\NormalTok{, }\FloatTok{.1}\NormalTok{); y =}\StringTok{ }\OperatorTok{-}\NormalTok{x1 }\OperatorTok{+}\StringTok{ }\NormalTok{x2 }\OperatorTok{+}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(n, }\DataTypeTok{sd =} \FloatTok{.01}\NormalTok{)}
+\NormalTok{n <-}\StringTok{ }\DecValTok{100}\NormalTok{; x2 <-}\StringTok{ }\DecValTok{1} \OperatorTok{:}\StringTok{ }\NormalTok{n; x1 <-}\StringTok{ }\FloatTok{.01} \OperatorTok{*}\StringTok{ }\NormalTok{x2 }\OperatorTok{+}\StringTok{ }\KeywordTok{runif}\NormalTok{(n, }\FloatTok{-.1}\NormalTok{, }\FloatTok{.1}\NormalTok{); }
+\NormalTok{y =}\StringTok{ }\OperatorTok{-}\NormalTok{x1 }\OperatorTok{+}\StringTok{ }\NormalTok{x2 }\OperatorTok{+}\StringTok{ }\KeywordTok{rnorm}\NormalTok{(n, }\DataTypeTok{sd =} \FloatTok{.01}\NormalTok{)}
 \KeywordTok{summary}\NormalTok{(}\KeywordTok{lm}\NormalTok{(y }\OperatorTok{~}\StringTok{ }\NormalTok{x1))}\OperatorTok{$}\NormalTok{coef}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
-              Estimate Std. Error    t value     Pr(>|t|)
-(Intercept)  0.4501325   1.196004  0.3763638 7.074600e-01
-x1          98.1991010   2.064007 47.5769327 1.575874e-69
+##              Estimate Std. Error   t value     Pr(>|t|)
+## (Intercept)  2.017551   1.158271  1.741864 8.466983e-02
+## x1          96.393027   2.009761 47.962442 7.379869e-70
 \end{verbatim}
 
 \begin{Shaded}
@@ -560,11 +541,13 @@ x1          98.1991010   2.064007 47.5769327 1.575874e-69
 \end{Shaded}
 
 \begin{verbatim}
-                 Estimate   Std. Error      t value      Pr(>|t|)
-(Intercept) -0.0009920596 0.0020522991   -0.4833894  6.299087e-01
-x1          -0.9957394976 0.0175425669  -56.7613340  3.193593e-76
-x2           0.9999446100 0.0001732035 5773.2359436 2.559355e-270
+##                 Estimate  Std. Error    t value      Pr(>|t|)
+## (Intercept)  0.002622483 0.002105584    1.24549  2.159520e-01
+## x1          -1.015578904 0.017981182  -56.48010  5.098488e-76
+## x2           1.000135937 0.000180886 5529.09526 1.691815e-268
 \end{verbatim}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-11-1} \end{center}
 
 \hypertarget{back-to-this-data-set}{%
 \subsection{Back to this data set}\label{back-to-this-data-set}}
@@ -595,20 +578,13 @@ terms that are linear combinations of other terms.
 \begin{Shaded}
 \begin{Highlighting}[]
 \NormalTok{z <-}\StringTok{ }\NormalTok{swiss}\OperatorTok{$}\NormalTok{Agriculture }\OperatorTok{+}\StringTok{ }\NormalTok{swiss}\OperatorTok{$}\NormalTok{Education}
-\KeywordTok{lm}\NormalTok{(Fertility }\OperatorTok{~}\StringTok{ }\NormalTok{. }\OperatorTok{+}\StringTok{ }\NormalTok{z, }\DataTypeTok{data =}\NormalTok{ swiss)}
+\KeywordTok{lm}\NormalTok{(Fertility }\OperatorTok{~}\StringTok{ }\NormalTok{. }\OperatorTok{+}\StringTok{ }\NormalTok{z, }\DataTypeTok{data =}\NormalTok{ swiss)[[}\DecValTok{1}\NormalTok{]][}\DecValTok{1}\OperatorTok{:}\DecValTok{3}\NormalTok{]}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
-
-Call:
-lm(formula = Fertility ~ . + z, data = swiss)
-
-Coefficients:
-     (Intercept)       Agriculture       Examination         Education          Catholic  
-         66.9152           -0.1721           -0.2580           -0.8709            0.1041  
-Infant.Mortality                 z  
-          1.0770                NA  
+## (Intercept) Agriculture Examination 
+##  66.9151817  -0.1721140  -0.2580082
 \end{verbatim}
 
 \hypertarget{dummy-variables-are-smart}{%
@@ -666,6 +642,8 @@ Infant.Mortality                 z
 \hypertarget{insect-sprays}{%
 \subsection{Insect Sprays}\label{insect-sprays}}
 
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-13-1} \end{center}
+
 \hypertarget{linear-model-fit-group-a-is-the-reference}{%
 \subsection{Linear model fit, group A is the reference}\label{linear-model-fit-group-a-is-the-reference}}
 
@@ -676,13 +654,13 @@ Infant.Mortality                 z
 \end{Shaded}
 
 \begin{verbatim}
-               Estimate Std. Error    t value     Pr(>|t|)
-(Intercept)  14.5000000   1.132156 12.8074279 1.470512e-19
-sprayB        0.8333333   1.601110  0.5204724 6.044761e-01
-sprayC      -12.4166667   1.601110 -7.7550382 7.266893e-11
-sprayD       -9.5833333   1.601110 -5.9854322 9.816910e-08
-sprayE      -11.0000000   1.601110 -6.8702352 2.753922e-09
-sprayF        2.1666667   1.601110  1.3532281 1.805998e-01
+##                Estimate Std. Error    t value     Pr(>|t|)
+## (Intercept)  14.5000000   1.132156 12.8074279 1.470512e-19
+## sprayB        0.8333333   1.601110  0.5204724 6.044761e-01
+## sprayC      -12.4166667   1.601110 -7.7550382 7.266893e-11
+## sprayD       -9.5833333   1.601110 -5.9854322 9.816910e-08
+## sprayE      -11.0000000   1.601110 -6.8702352 2.753922e-09
+## sprayF        2.1666667   1.601110  1.3532281 1.805998e-01
 \end{verbatim}
 
 \hypertarget{hard-coding-the-dummy-variables}{%
@@ -699,13 +677,13 @@ sprayF        2.1666667   1.601110  1.3532281 1.805998e-01
 \end{Shaded}
 
 \begin{verbatim}
-                         Estimate Std. Error    t value     Pr(>|t|)
-(Intercept)            14.5000000   1.132156 12.8074279 1.470512e-19
-I(1 * (spray == "B"))   0.8333333   1.601110  0.5204724 6.044761e-01
-I(1 * (spray == "C")) -12.4166667   1.601110 -7.7550382 7.266893e-11
-I(1 * (spray == "D"))  -9.5833333   1.601110 -5.9854322 9.816910e-08
-I(1 * (spray == "E")) -11.0000000   1.601110 -6.8702352 2.753922e-09
-I(1 * (spray == "F"))   2.1666667   1.601110  1.3532281 1.805998e-01
+##                          Estimate Std. Error    t value     Pr(>|t|)
+## (Intercept)            14.5000000   1.132156 12.8074279 1.470512e-19
+## I(1 * (spray == "B"))   0.8333333   1.601110  0.5204724 6.044761e-01
+## I(1 * (spray == "C")) -12.4166667   1.601110 -7.7550382 7.266893e-11
+## I(1 * (spray == "D"))  -9.5833333   1.601110 -5.9854322 9.816910e-08
+## I(1 * (spray == "E")) -11.0000000   1.601110 -6.8702352 2.753922e-09
+## I(1 * (spray == "F"))   2.1666667   1.601110  1.3532281 1.805998e-01
 \end{verbatim}
 
 \hypertarget{what-if-we-include-all-6}{%
@@ -720,20 +698,6 @@ I(1 * (spray == "F"))   2.1666667   1.601110  1.3532281 1.805998e-01
 \end{Highlighting}
 \end{Shaded}
 
-\begin{verbatim}
-
-Call:
-lm(formula = count ~ I(1 * (spray == "B")) + I(1 * (spray == 
-    "C")) + I(1 * (spray == "D")) + I(1 * (spray == "E")) + I(1 * 
-    (spray == "F")) + I(1 * (spray == "A")), data = InsectSprays)
-
-Coefficients:
-          (Intercept)  I(1 * (spray == "B"))  I(1 * (spray == "C"))  I(1 * (spray == "D"))  
-              14.5000                 0.8333               -12.4167                -9.5833  
-I(1 * (spray == "E"))  I(1 * (spray == "F"))  I(1 * (spray == "A"))  
-             -11.0000                 2.1667                     NA  
-\end{verbatim}
-
 \hypertarget{what-if-we-omit-the-intercept}{%
 \subsection{What if we omit the intercept?}\label{what-if-we-omit-the-intercept}}
 
@@ -744,13 +708,13 @@ I(1 * (spray == "E"))  I(1 * (spray == "F"))  I(1 * (spray == "A"))
 \end{Shaded}
 
 \begin{verbatim}
-        Estimate Std. Error   t value     Pr(>|t|)
-sprayA 14.500000   1.132156 12.807428 1.470512e-19
-sprayB 15.333333   1.132156 13.543487 1.001994e-20
-sprayC  2.083333   1.132156  1.840148 7.024334e-02
-sprayD  4.916667   1.132156  4.342749 4.953047e-05
-sprayE  3.500000   1.132156  3.091448 2.916794e-03
-sprayF 16.666667   1.132156 14.721181 1.573471e-22
+##         Estimate Std. Error   t value     Pr(>|t|)
+## sprayA 14.500000   1.132156 12.807428 1.470512e-19
+## sprayB 15.333333   1.132156 13.543487 1.001994e-20
+## sprayC  2.083333   1.132156  1.840148 7.024334e-02
+## sprayD  4.916667   1.132156  4.342749 4.953047e-05
+## sprayE  3.500000   1.132156  3.091448 2.916794e-03
+## sprayF 16.666667   1.132156 14.721181 1.573471e-22
 \end{verbatim}
 
 \begin{Shaded}
@@ -760,7 +724,7 @@ sprayF 16.666667   1.132156 14.721181 1.573471e-22
 \end{Shaded}
 
 \begin{verbatim}
-[1] 14.500000 15.333333  2.083333  4.916667  3.500000 16.666667
+## [1] 14.500000 15.333333  2.083333  4.916667  3.500000 16.666667
 \end{verbatim}
 
 \hypertarget{summary}{%
@@ -804,13 +768,13 @@ Reordering the levels
 \end{Shaded}
 
 \begin{verbatim}
-             Estimate Std. Error  t value     Pr(>|t|)
-(Intercept)  2.083333   1.132156 1.840148 7.024334e-02
-spray2A     12.416667   1.601110 7.755038 7.266893e-11
-spray2B     13.250000   1.601110 8.275511 8.509776e-12
-spray2D      2.833333   1.601110 1.769606 8.141205e-02
-spray2E      1.416667   1.601110 0.884803 3.794750e-01
-spray2F     14.583333   1.601110 9.108266 2.794343e-13
+##              Estimate Std. Error  t value     Pr(>|t|)
+## (Intercept)  2.083333   1.132156 1.840148 7.024334e-02
+## spray2A     12.416667   1.601110 7.755038 7.266893e-11
+## spray2B     13.250000   1.601110 8.275511 8.509776e-12
+## spray2D      2.833333   1.601110 1.769606 8.141205e-02
+## spray2E      1.416667   1.601110 0.884803 3.794750e-01
+## spray2F     14.583333   1.601110 9.108266 2.794343e-13
 \end{verbatim}
 
 Doing it manually
@@ -822,7 +786,10 @@ Equivalently
 \NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(count }\OperatorTok{~}\StringTok{ }\NormalTok{spray, }\DataTypeTok{data =}\NormalTok{ InsectSprays) }\CommentTok{#A is ref}
 \NormalTok{bbmbc <-}\StringTok{ }\KeywordTok{coef}\NormalTok{(fit)[}\DecValTok{2}\NormalTok{] }\OperatorTok{-}\StringTok{ }\KeywordTok{coef}\NormalTok{(fit)[}\DecValTok{3}\NormalTok{] }\CommentTok{#B - C}
 \NormalTok{temp <-}\StringTok{ }\KeywordTok{summary}\NormalTok{(fit) }
-\NormalTok{se <-}\StringTok{ }\NormalTok{temp}\OperatorTok{$}\NormalTok{sigma }\OperatorTok{*}\StringTok{ }\KeywordTok{sqrt}\NormalTok{(temp}\OperatorTok{$}\NormalTok{cov.unscaled[}\DecValTok{2}\NormalTok{, }\DecValTok{2}\NormalTok{] }\OperatorTok{+}\StringTok{ }\NormalTok{temp}\OperatorTok{$}\NormalTok{cov.unscaled[}\DecValTok{3}\NormalTok{,}\DecValTok{3}\NormalTok{] }\OperatorTok{-}\StringTok{ }\DecValTok{2} \OperatorTok{*}\NormalTok{temp}\OperatorTok{$}\NormalTok{cov.unscaled[}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{])}
+\NormalTok{se <-}\StringTok{ }\NormalTok{temp}\OperatorTok{$}\NormalTok{sigma }\OperatorTok{*}\StringTok{ }
+\StringTok{      }\KeywordTok{sqrt}\NormalTok{(temp}\OperatorTok{$}\NormalTok{cov.unscaled[}\DecValTok{2}\NormalTok{, }\DecValTok{2}\NormalTok{] }\OperatorTok{+}\StringTok{ }
+\StringTok{      }\NormalTok{temp}\OperatorTok{$}\NormalTok{cov.unscaled[}\DecValTok{3}\NormalTok{,}\DecValTok{3}\NormalTok{] }\OperatorTok{-}\StringTok{ }
+\StringTok{      }\DecValTok{2} \OperatorTok{*}\NormalTok{temp}\OperatorTok{$}\NormalTok{cov.unscaled[}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{])}
 \NormalTok{t <-}\StringTok{ }\NormalTok{(bbmbc) }\OperatorTok{/}\StringTok{ }\NormalTok{se}
 \NormalTok{p <-}\StringTok{ }\KeywordTok{pt}\NormalTok{(}\OperatorTok{-}\KeywordTok{abs}\NormalTok{(t), }\DataTypeTok{df =}\NormalTok{ fit}\OperatorTok{$}\NormalTok{df)}
 \NormalTok{out <-}\StringTok{ }\KeywordTok{c}\NormalTok{(bbmbc, se, t, p)}
@@ -832,8 +799,8 @@ Equivalently
 \end{Shaded}
 
 \begin{verbatim}
- B - C     SE      T      P 
-13.250  1.601  8.276  0.000 
+##  B - C     SE      T      P 
+## 13.250  1.601  8.276  0.000
 \end{verbatim}
 
 \hypertarget{other-thoughts-on-this-data}{%
@@ -867,38 +834,36 @@ WHO childhood hunger data
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#download.file("http://apps.who.int/gho/athena/data/GHO/WHOSIS_000008.csv?profile=text&filter=COUNTRY:*;SEX:*","hunger.csv",method="curl")}
+\CommentTok{#url <- "http://apps.who.int/gho/athena/data/GHO/WHOSIS_000008.csv?profile=text&filter=COUNTRY:*;SEX:*"}
+\CommentTok{#download.file(url, "hunger.csv", method="curl")}
 \NormalTok{hunger <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{'01-data/sheets/hunger.csv'}\NormalTok{)}
 \NormalTok{hunger <-}\StringTok{ }\NormalTok{hunger[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{!=}\StringTok{"Both sexes"}\NormalTok{,]}
-\KeywordTok{head}\NormalTok{(hunger)}
+\KeywordTok{kable}\NormalTok{(}\KeywordTok{head}\NormalTok{(hunger[,}\DecValTok{1}\OperatorTok{:}\DecValTok{2}\NormalTok{],}\DecValTok{3}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
 
-\begin{verbatim}
-                               Indicator Data.Source PUBLISH.STATES Year            WHO.region
-1 Children aged <5 years underweight (%) NLIS_310044      Published 1986                Africa
-2 Children aged <5 years underweight (%) NLIS_310233      Published 1990              Americas
-3 Children aged <5 years underweight (%) NLIS_312902      Published 2005              Americas
-5 Children aged <5 years underweight (%) NLIS_312522      Published 2002 Eastern Mediterranean
-6 Children aged <5 years underweight (%) NLIS_312955      Published 2008                Africa
-8 Children aged <5 years underweight (%) NLIS_312963      Published 2008                Africa
-        Country    Sex Display.Value Numeric Low High Comments
-1       Senegal   Male          19.3    19.3  NA   NA       NA
-2      Paraguay   Male           2.2     2.2  NA   NA       NA
-3     Nicaragua   Male           5.3     5.3  NA   NA       NA
-5        Jordan Female           3.2     3.2  NA   NA       NA
-6 Guinea-Bissau Female          17.0    17.0  NA   NA       NA
-8         Ghana   Male          15.7    15.7  NA   NA       NA
-\end{verbatim}
+\begin{tabular}{l|l}
+\hline
+Indicator & Data.Source\\
+\hline
+Children aged <5 years underweight (\%) & NLIS\_310044\\
+\hline
+Children aged <5 years underweight (\%) & NLIS\_310233\\
+\hline
+Children aged <5 years underweight (\%) & NLIS\_312902\\
+\hline
+\end{tabular}
 
 Plot percent hungry versus time
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \NormalTok{lm1 <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric }\OperatorTok{~}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year)}
-\NormalTok{plot1 <-}\StringTok{ }\KeywordTok{plot}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{,}\DataTypeTok{col=}\StringTok{"blue"}\NormalTok{)}
+\KeywordTok{plot}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{,}\DataTypeTok{col=}\StringTok{"blue"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-20-1} \end{center}
 
 Linear model
 
@@ -920,14 +885,15 @@ Add the linear model
 \end{Highlighting}
 \end{Shaded}
 
-Color by male/female
+\includegraphics{thesis_files/figure-latex/unnamed-chunk-21-1.pdf}
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{plot}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{)}
-\KeywordTok{points}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{,}\DataTypeTok{col=}\NormalTok{((hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{)}\OperatorTok{*}\DecValTok{1}\OperatorTok{+}\DecValTok{1}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-22-1} \end{center}
 
 Now two lines
 
@@ -947,18 +913,17 @@ Now two lines
 
 \(em_i\) = everything we didn't measure
 
-Color by male/female
-
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{lmM <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{] }\OperatorTok{~}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{])}
-\NormalTok{lmF <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Female"}\NormalTok{] }\OperatorTok{~}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Female"}\NormalTok{])}
+\NormalTok{lmM <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{] }\OperatorTok{~}\StringTok{ }
+\StringTok{            }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{])}
+\NormalTok{lmF <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Female"}\NormalTok{] }\OperatorTok{~}
+\StringTok{            }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Female"}\NormalTok{])}
 \KeywordTok{plot}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{)}
-\KeywordTok{points}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{,}\DataTypeTok{col=}\NormalTok{((hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{)}\OperatorTok{*}\DecValTok{1}\OperatorTok{+}\DecValTok{1}\NormalTok{))}
-\KeywordTok{lines}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{],lmM}\OperatorTok{$}\NormalTok{fitted,}\DataTypeTok{col=}\StringTok{"black"}\NormalTok{,}\DataTypeTok{lwd=}\DecValTok{3}\NormalTok{)}
-\KeywordTok{lines}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year[hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Female"}\NormalTok{],lmF}\OperatorTok{$}\NormalTok{fitted,}\DataTypeTok{col=}\StringTok{"red"}\NormalTok{,}\DataTypeTok{lwd=}\DecValTok{3}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-23-1} \end{center}
 
 Two lines, same slope
 
@@ -978,11 +943,10 @@ Two lines, same slope in R
 \begin{Highlighting}[]
 \NormalTok{lmBoth <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric }\OperatorTok{~}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year }\OperatorTok{+}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Sex)}
 \KeywordTok{plot}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{)}
-\KeywordTok{points}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{,}\DataTypeTok{col=}\NormalTok{((hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{)}\OperatorTok{*}\DecValTok{1}\OperatorTok{+}\DecValTok{1}\NormalTok{))}
-\KeywordTok{abline}\NormalTok{(}\KeywordTok{c}\NormalTok{(lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{1}\NormalTok{],lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{2}\NormalTok{]),}\DataTypeTok{col=}\StringTok{"red"}\NormalTok{,}\DataTypeTok{lwd=}\DecValTok{3}\NormalTok{)}
-\KeywordTok{abline}\NormalTok{(}\KeywordTok{c}\NormalTok{(lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{1}\NormalTok{] }\OperatorTok{+}\StringTok{ }\NormalTok{lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{3}\NormalTok{],lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{2}\NormalTok{] ),}\DataTypeTok{col=}\StringTok{"black"}\NormalTok{,}\DataTypeTok{lwd=}\DecValTok{3}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-24-1} \end{center}
 
 Two lines, different slopes (interactions)
 
@@ -1002,44 +966,29 @@ Two lines, different slopes in R
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{lmBoth <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric }\OperatorTok{~}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year }\OperatorTok{+}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Sex }\OperatorTok{+}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{*}\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year)}
+\NormalTok{lmBoth <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Numeric }\OperatorTok{~}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year }\OperatorTok{+}\StringTok{ }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Sex }\OperatorTok{+}\StringTok{ }
+\StringTok{               }\NormalTok{hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{*}\NormalTok{hunger}\OperatorTok{$}\NormalTok{Year)}
 \KeywordTok{plot}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{)}
-\KeywordTok{points}\NormalTok{(hunger}\OperatorTok{$}\NormalTok{Year,hunger}\OperatorTok{$}\NormalTok{Numeric,}\DataTypeTok{pch=}\DecValTok{19}\NormalTok{,}\DataTypeTok{col=}\NormalTok{((hunger}\OperatorTok{$}\NormalTok{Sex}\OperatorTok{==}\StringTok{"Male"}\NormalTok{)}\OperatorTok{*}\DecValTok{1}\OperatorTok{+}\DecValTok{1}\NormalTok{))}
-\KeywordTok{abline}\NormalTok{(}\KeywordTok{c}\NormalTok{(lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{1}\NormalTok{],lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{2}\NormalTok{]),}\DataTypeTok{col=}\StringTok{"red"}\NormalTok{,}\DataTypeTok{lwd=}\DecValTok{3}\NormalTok{)}
-\KeywordTok{abline}\NormalTok{(}\KeywordTok{c}\NormalTok{(lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{1}\NormalTok{] }\OperatorTok{+}\StringTok{ }\NormalTok{lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{3}\NormalTok{],lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{2}\NormalTok{] }\OperatorTok{+}\NormalTok{lmBoth}\OperatorTok{$}\NormalTok{coeff[}\DecValTok{4}\NormalTok{]),}\DataTypeTok{col=}\StringTok{"black"}\NormalTok{,}\DataTypeTok{lwd=}\DecValTok{3}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{center}\includegraphics{thesis_files/figure-latex/lmBothChunk-1} \end{center}
 
 Two lines, different slopes in R
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{summary}\NormalTok{(lmBoth)}
+\KeywordTok{summary}\NormalTok{(lmBoth)[}\DecValTok{4}\NormalTok{]}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
-
-Call:
-lm(formula = hunger$Numeric ~ hunger$Year + hunger$Sex + hunger$Sex * 
-    hunger$Year)
-
-Residuals:
-    Min      1Q  Median      3Q     Max 
--25.913 -11.248  -1.853   7.087  46.146 
-
-Coefficients:
-                            Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                603.50580  171.05519   3.528 0.000439 ***
-hunger$Year                 -0.29340    0.08547  -3.433 0.000623 ***
-hunger$SexMale              61.94772  241.90858   0.256 0.797946    
-hunger$Year:hunger$SexMale  -0.03000    0.12087  -0.248 0.804022    
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-Residual standard error: 13.21 on 944 degrees of freedom
-Multiple R-squared:  0.03181,	Adjusted R-squared:  0.02874 
-F-statistic: 10.34 on 3 and 944 DF,  p-value: 1.064e-06
+## $coefficients
+##                                Estimate   Std. Error    t value     Pr(>|t|)
+## (Intercept)                603.50579986 171.05519432  3.5281349 0.0004386682
+## hunger$Year                 -0.29339638   0.08546675 -3.4328718 0.0006231690
+## hunger$SexMale              61.94771998 241.90857572  0.2560791 0.7979455842
+## hunger$Year:hunger$SexMale  -0.03000132   0.12086823 -0.2482151 0.8040219874
 \end{verbatim}
 
 Interpretting a continuous interaction

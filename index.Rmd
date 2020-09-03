@@ -19,7 +19,7 @@ toc: false
 ---
 
 ```{r setup, include=FALSE, echo=FALSE, message=FALSE, eval=FALSE}
-#knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE, fig.path="Images/")
+#knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE, fig.path="12-exportedfigures")
 ```
 
 ```{r include=FALSE, echo=FALSE, message=FALSE, results='hide'}
@@ -31,5 +31,7 @@ library(knitr)
 library(tinytex)
 library(utf8)
 library(ggplot2)
+library(tidyverse)
+library(corrplot)
 ```
 
