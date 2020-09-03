@@ -3,7 +3,8 @@
 \imprimircapa}{}
 
 
-\imprimirfolhaderosto*
+\ifthenelse{\equal{\terFolhaRosto}{Sim}}{
+\imprimirfolhaderosto*}{}
 
 
  \ifthenelse{\equal{\terFichaCatalografica}{Sim}}
