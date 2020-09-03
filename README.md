@@ -1,11 +1,11 @@
-Este projeto é uma adaptação para o ambiente R Markdown utilizando a ferramenta bookdown combinando o modelo canônico de trabalho acadêmicos da \abnTeX e a adapatação para UFPR realizada por Emilio E Kawamura.
+Este projeto é uma adaptação para o ambiente R Markdown utilizando a ferramenta bookdown combinando o modelo canônico de trabalho acadêmicos da \abnTeX e a adapataçãoo para UFPR realizada por Emilio E Kawamura.
 
 A iniciativas originais podem ser encontradas em:
 
 https://www.abntex.net.br
 README: 
                             abnTeX2  
-                Type�set technical and scientific 
+                Type­set technical and scientific 
              Brazilian documents based on ABNT rules
              
 -----------------------------------------------------------------
@@ -16,8 +16,8 @@ Please read the license information at the end of this file.
 The abntex2 class and the abntex2cite package are intended to 
 assist the preparation of technical and scientific documents 
 (like thesis, articles, research projects and other 
-academic papers) based on ABNT (Associação Brasileira de Normas 
-Técnicas) rules used in Brazil.
+academic papers) based on ABNT (AssociaÃ§Ã£o Brasileira de Normas 
+TÃ©cnicas) rules used in Brazil.
 
 The latest version of abnTeX2 is v-1.9.7 (2018/11/24).
 
@@ -79,7 +79,7 @@ CHANGE HISTORY
       \counterwithout replaced by \counterwithin
       added several improvements 
     . changed .sty files to print "volume" field at @book bib entries 
-    . changed example of "Ficha catalográfica"
+    . changed example of "Ficha catalogrÃ¡fica"
     . changed default implementation of \imprimircapa
     . changed default value for \ABNTEXsignskip from 1cm to 0.7cm
     . removed "calc" package dependency in order to solve conflicts 
@@ -94,7 +94,7 @@ CHANGE HISTORY
 
   2013/12/26 - v1.9.1
     . minor fix errors in sumario=tradicional option
-    . changed the presentation example name to 'Modelo de apresentação de
+    . changed the presentation example name to 'Modelo de apresentaÃ§Ã£o de
       slides com Beamer e abnTeX2'
     . added escape for '%', '#' and '_' characters in URL of bibliography references  
     . added information about "url packages" to abntex2cite.tex documentation
@@ -154,7 +154,7 @@ CHANGE HISTORY
    . added an optional argument to the citacao environment: language.
      Now the quoted text in foreign language is automatically written in italics
      and the proper hyphenation system is selected. Use as: 
-     \begin{citacao}[french]Texte français.\end{citacao}  
+     \begin{citacao}[french]Texte franÃ§ais.\end{citacao}  
    . added new options chapter=TITLE, section=TITLE, subsection=TITLE and
      subsubsection=TITLE to the abntex2.cls class. These options change
      the sections and chapter titles to upper case;
@@ -182,13 +182,13 @@ CHANGE HISTORY
      files: option "brazil" must be on documentclass
    . added visual enhancements on documentation files
    . changed the name of documentation files:
-     from: "Manual de uso dos estilos bibliográficos do pacote abntex2cite: 
-            estilos bibtex compatíveis com a ABNT NBR 6023"
-       to: "O pacote abntex2cite: Estilos bibliográficos compatíveis com a ABNT NBR 6023"
-     from: "Manual de uso do pacote abntex2cite: tópicos específicos da 
-            ABNT NBR 10520:2002 e o estilo bibliográfico alfabético (sistema autor-data)"
-       to: "O pacote abntex2cite: Tópicos específicos da ABNT NBR 10520:2002 e o 
-            estilo bibliográfico alfabético (sistema autor-data)"
+     from: "Manual de uso dos estilos bibliogrÃ¡ficos do pacote abntex2cite: 
+            estilos bibtex compatÃ­veis com a ABNT NBR 6023"
+       to: "O pacote abntex2cite: Estilos bibliogrÃ¡ficos compatÃ­veis com a ABNT NBR 6023"
+     from: "Manual de uso do pacote abntex2cite: tÃ³picos especÃ­ficos da 
+            ABNT NBR 10520:2002 e o estilo bibliogrÃ¡fico alfabÃ©tico (sistema autor-data)"
+       to: "O pacote abntex2cite: TÃ³picos especÃ­ficos da ABNT NBR 10520:2002 e o 
+            estilo bibliogrÃ¡fico alfabÃ©tico (sistema autor-data)"
    . added information about bibliographies on examples.              
   
   2013/03/23 - v1.6
@@ -267,7 +267,7 @@ CHANGE HISTORY
     updated abntex2-modelo-include-comandos:
      . added section about UTF-8
     updated abntex2.tex documentation:
-     . added enumitem's reference in "Alíneas e subalíneas" section
+     . added enumitem's reference in "AlÃ­neas e subalÃ­neas" section
      . added section about UTF-8
      . added sections about the main options of the class
      . added  \partanexos and \partapendices explanations
@@ -287,14 +287,14 @@ CHANGE HISTORY
     changed \pretextualchapter to change headings with the value of chapter title
     changed \ABNTEXchapterfont: now it uses a font style without serif (\sffamily)
     changed thesis model to add examples of \chapter*[heading title]{text title}
-    changed title of the article model from "Modelo Canônico de Artigos Acadêmicos" 
-      to "Modelo Canônico de Artigo Científico"
-    changed title of the thesis model from "Modelo Canônico de Trabalhos Acadêmicos" 
-      to "Modelo Canônico de Trabalho Acadêmico"
-    changed title of abntex2 documentation from "A classe abntex2: Modelo canônico de
-      trabalhos acadêmicos brasileiros compatível com as normas ABNT NBR 14724:2011,
-      ABNT NBR 6024:2012 e outras" to "A classe abntex2: Documentos técnicos e científicos 
-      brasileiros compatíveis com as normas ABNT"   
+    changed title of the article model from "Modelo CanÃ´nico de Artigos AcadÃªmicos" 
+      to "Modelo CanÃ´nico de Artigo CientÃ­fico"
+    changed title of the thesis model from "Modelo CanÃ´nico de Trabalhos AcadÃªmicos" 
+      to "Modelo CanÃ´nico de Trabalho AcadÃªmico"
+    changed title of abntex2 documentation from "A classe abntex2: Modelo canoÌnico de
+      trabalhos acadeÌmicos brasileiros compatiÌvel com as normas ABNT NBR 14724:2011,
+      ABNT NBR 6024:2012 e outras" to "A classe abntex2: Documentos tÃ©cnicos e cientÃ­ficos 
+      brasileiros compatÃ­veis com as normas ABNT"   
     as an example of \include, now all example documents share a single file 
       named abntex2-modelo-include-comandos.tex, that has the content from
       abntex2-modelo-trabalho-academico.tex and:
@@ -316,9 +316,9 @@ CHANGE HISTORY
      updated documentation 
      bug fixes on abntex2.cls
      added compatibility information to:
-       . ABNT NBR 10719:2011: Informação e documentação - Relatório técnico e/ou científico - Apresentação
-       . ABNT NBR 15287:2011: Informação e documentação - Projeto de pesquisa - Apresentação
-       . ABNT NBR 6022-2003 - Informação e documentação - Artigo em publicação periódica científica impressa - Apresentação
+       . ABNT NBR 10719:2011: InformaÃ§Ã£o e documentaÃ§Ã£o - RelatÃ³rio tÃ©cnico e/ou cientÃ­fico - ApresentaÃ§Ã£o
+       . ABNT NBR 15287:2011: InformaÃ§Ã£o e documentaÃ§Ã£o - Projeto de pesquisa - ApresentaÃ§Ã£o
+       . ABNT NBR 6022-2003 - InformaÃ§Ã£o e documentaÃ§Ã£o - Artigo em publicaÃ§Ã£o periÃ³dica cientÃ­fica impressa - ApresentaÃ§Ã£o
 
   2013/01/05 - v1.1
      bug fixes on abnex2cite.sty when using with Beamer 
@@ -447,7 +447,7 @@ group http://groups.google.com/group/abntex2
 
 We need your help too. Access the project's home page and contact us.
 
-Lauro César Araujo - laurocesar at laurocesar dot com
+Lauro CÃ©sar Araujo - laurocesar at laurocesar dot com
 
 
 https://pt.overleaf.com/latex/templates/abntex-ufpr/bsswfjqykhhd
@@ -458,56 +458,56 @@ O modelo criado:
  
  fig.jpg
  tipog.png
- figure.png são figuras e para compilar corretamente devem ser salvas na pasta fig/
+ figure.png sÃ£o figuras e para compilar corretamente devem ser salvas na pasta fig/
  
  TermoA1.pdf
- FichaC1.pdf arquicos pdf do termo de aprovação  e ficha catalográfica. Para que os arquivos sejam inseridos nos 
- locais devidos, deve-se colocá-lo na pasta: metadados/ e retirar o algarismo 1 no final dos nomes dos arquivos.
+ FichaC1.pdf arquicos pdf do termo de aprovaÃ§Ã£o  e ficha catalogrÃ¡fica. Para que os arquivos sejam inseridos nos 
+ locais devidos, deve-se colocÃ¡-lo na pasta: metadados/ e retirar o algarismo 1 no final dos nomes dos arquivos.
  
  00-dados.tex 
-   Possui os dados necessários para identificar o autor, instituição, trabalho, preambulo, resumo, epígrafe
+   Possui os dados necessÃ¡rios para identificar o autor, instituiÃ§Ã£o, trabalho, preambulo, resumo, epÃ­grafe
    lista de siglas e de simbolos,....
  
  00-pacotes.tex 	
    Possui os pacotes customizados para o funcionamento de acordo com as normas da UFPR
    
  00-pretextual.tex 	
-   Utilização dos arquivos de entrada de dados e de pacotes para criar os elementos prétextuais
+   UtilizaÃ§Ã£o dos arquivos de entrada de dados e de pacotes para criar os elementos prÃ©textuais
 
  cap01.tex 	
-   Demonstração do uso de comandos criados para a customização
+   DemonstraÃ§Ã£o do uso de comandos criados para a customizaÃ§Ã£o
    
- UFPR.sty 	 é o pacote de estilos
+ UFPR.sty 	 Ã© o pacote de estilos
 	
- main.tex 	 arquivo principal da customização, é o arquivo que deve ser compilado.
+ main.tex 	 arquivo principal da customizaÃ§Ã£o, Ã© o arquivo que deve ser compilado.
  
- referencias.bib exemplo de um arquivo de referências bibliográficas para exemplificar o uso do abntex2cite
+ referencias.bib exemplo de um arquivo de referÃªncias bibliogrÃ¡ficas para exemplificar o uso do abntex2cite
 
  figure.png     arquivo da imagem de exemplo:  https://goo.gl/IpBzr1, deve ser colocada na pasta fig;
- FichaC1.pdf    arquivo da Ficha Catalográfica de exemplo: deve ser colocada na pasta metadados;
- TermoA1.pdf    arquivo do Termo de aprovação de exemplo: deve ser colocada na pasta metadados.
+ FichaC1.pdf    arquivo da Ficha CatalogrÃ¡fica de exemplo: deve ser colocada na pasta metadados;
+ TermoA1.pdf    arquivo do Termo de aprovaÃ§Ã£o de exemplo: deve ser colocada na pasta metadados.
 
 ==========================
-Instruções para o uso da customização:
+InstruÃ§Ãµes para o uso da customizaÃ§Ã£o:
 
-1) Utilize a codificação UTF-8 para trabalhar com a customização;
+1) Utilize a codificaÃ§Ã£o UTF-8 para trabalhar com a customizaÃ§Ã£o;
 
-2) Tenha a disposição um compilador com o pdfLaTeX;
+2) Tenha a disposiÃ§Ã£o um compilador com o pdfLaTeX;
 
-3) Edite as informações solicitadas no arquivo 00.dados.tex
+3) Edite as informaÃ§Ãµes solicitadas no arquivo 00.dados.tex
 
 4) Compile o arquivo main.tex 
 
-Qualquer dúvida ou comentário:  emilio.kavamura@ufpr.br ou eek.edu@outlook.com
+Qualquer dÃºvida ou comentÃ¡rio:  emilio.kavamura@ufpr.br ou eek.edu@outlook.com
 
 
-Questões para resolver:
+QuestÃµes para resolver:
 
-1 -  Eliminar referências do Rmardown e utilizaer somente a gerada pelo códifo Latex.
-2 -  Alinhanhamento do Sumário
+1 -  Eliminar referÃªncias do Rmardown e utilizaer somente a gerada pelo cÃ³difo Latex.
+2 -  Alinhanhamento do SumÃ¡rio
 3 - Gerar arquvio Word de acordo com template
-4 - Construir instruções específicas
-5 - Adaptação para receber as classes memoir e ajustar problemas de normalização como página em branco, numeração, espaçamento. 
+4 - Construir instruÃ§Ãµes especÃ­ficas
+5 - AdaptaÃ§Ã£o para receber as classes memoir e ajustar problemas de normalizaÃ§Ã£o como pÃ¡gina em branco, numeraÃ§Ã£o, espaÃ§amento. 
 
 
 
