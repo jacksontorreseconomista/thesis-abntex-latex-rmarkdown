@@ -213,13 +213,23 @@
 \setlrmarginsandblock{3cm}{2cm}{*}
 \setulmarginsandblock{3cm}{2cm}{*}
 \checkandfixthelayout
+
+
+%\checkoddpage 
+%  \ifoddpage
+%    \setlrmarginsandblock{3.5cm}{2.5cm}{*}%
+%  \else 
+%    \setlrmarginsandblock{2.5cm}{3.5cm}{*}%
+%  \fi
+
 % ---
 
 % ---
 % Espacamento entre linhas - NBR 14724/2011 - 5.2 Espacamento
 % ---
-\OnehalfSpacing
-%\DoubleSpacing
+%\OnehalfSpacing
+%\SingleSpacing
+\DoubleSpacing
 % ---
 
 % ------------------------------------------------------------------------
@@ -311,6 +321,14 @@
 \setlength{\footmarkwidth}{1.2em} % largura do footnotemark
 \setlength{\footmarksep}{0em}
 \footmarkstyle{\footnotesize{\textsuperscript{#1}}\hfill}
+
+%%%%%%%%%% ALTERADO
+% MODIFICA ESPAÇO ENTRE AS NOTAS DE RODAPÉ
+%\setlength{\footnotesep}{0.5cm}
+% MODIFICA ESPAÇAMENTO ENTRE A NOTA DE RODAPÉ E O TEXTO
+\setlength{\skip\footins}{1cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % tamanho da fonte do footnote
 \renewcommand{\foottextfont}{\ABNTEXfontereduzida}
@@ -677,6 +695,13 @@
   \bookmarksetup{startatroot}% 
 }
 \renewcommand{\mainmatter}{\textual}
+
+%%%%%% ADICIONADO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CORREÇÃO DE LINHA ÓRFÃS E VIÚVAS
+\widowpenalty=10000
+\clubpenalty=10000
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % ---
 
 % ---
@@ -1125,7 +1150,6 @@
 \makeatother
 % ---
 
-
 %%%%  UFPR
 
 %% UFPR
@@ -1251,7 +1275,7 @@
     \ifthenelse{\equal \ImprimirSetor{}}{}{
     \ABNTEXchapterfont 
     \MakeUppercase\ImprimirSetor}
-        \vspace{1mm} % ALTERADO
+        \vspace{1mm} %ALTERADO
     
     \ifthenelse{\equal \ImprimirProgramaPos{}}{}{
     \ABNTEXchapterfont 
