@@ -4,7 +4,7 @@
 
 \chapter[INTRODUÇÃO]{INTRODUÇÃO}
 
-Este projeto é uma adaptação para o ambiente R Markdown utilizando a ferramenta bookdown combinando o modelo canônico de trabalho acadêmicos da \abnTeX e a adapatação para UFPR realizada por Emilio E Kawamura.
+Este projeto é uma adaptação para o ambiente R Markdown utilizando a ferramenta bookdown combinando o modelo canônico de trabalho acadêmicos da \abnTeX e a adapatação para UFPR realizada por Emilio E. Kawamura. Este é um teste de edição via colaboração. 
 
 Nesse sentido esse documento de exemplo conterá as redações idendicas destes dois trabalhos, com acréscimo de exemplos de utilização e visualização de códigos em linguagem R. 
 
