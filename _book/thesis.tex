@@ -121,7 +121,8 @@
 \ifthenelse{\equal{\terCapa}{Sim}}{
 \imprimircapa}{}
 
-\imprimirfolhaderosto*
+\ifthenelse{\equal{\terFolhaRosto}{Sim}}{
+\imprimirfolhaderosto*}{}
 
 \ifthenelse{\equal{\terFichaCatalografica}{Sim}}
  {\insereFichaCatalografica{}\cleardoublepage}
@@ -530,8 +531,8 @@ How can adjustment reverse the sign of an effect? Let's try a simulation.
 
 \begin{verbatim}
 ##              Estimate Std. Error   t value     Pr(>|t|)
-## (Intercept)  2.017551   1.158271  1.741864 8.466983e-02
-## x1          96.393027   2.009761 47.962442 7.379869e-70
+## (Intercept)  2.023307   1.183434  1.709691 9.048763e-02
+## x1          94.832083   2.021226 46.918109 5.838380e-69
 \end{verbatim}
 
 \begin{Shaded}
@@ -541,10 +542,10 @@ How can adjustment reverse the sign of an effect? Let's try a simulation.
 \end{Shaded}
 
 \begin{verbatim}
-##                 Estimate  Std. Error    t value      Pr(>|t|)
-## (Intercept)  0.002622483 0.002105584    1.24549  2.159520e-01
-## x1          -1.015578904 0.017981182  -56.48010  5.098488e-76
-## x2           1.000135937 0.000180886 5529.09526 1.691815e-268
+##                 Estimate   Std. Error      t value      Pr(>|t|)
+## (Intercept) -0.001610232 0.0019330674   -0.8329931  4.068950e-01
+## x1          -1.001865718 0.0159178036  -62.9399471  1.843350e-80
+## x2           1.000027376 0.0001625961 6150.3778670 5.525048e-273
 \end{verbatim}
 
 \begin{center}\includegraphics{thesis_files/figure-latex/unnamed-chunk-11-1} \end{center}

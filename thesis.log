@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.29)  3 SEP 2020 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.8)  10 SEP 2020 07:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07> (./04-class-files/abntex2.cls
+L3 programming layer <2020-09-06> (./04-class-files/abntex2.cls
 
 LaTeX Warning: You have requested document class `04-class-files/abntex2',
                but the document class provides `abntex2'.
@@ -498,9 +498,9 @@ def
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 \BKM@id=\count304
 )) (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/07/13 3.47 The Babel package
+Package: babel 2020/09/01 3.48 The Babel package
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/07/13 3.47 Babel common definitions
+File: babel.def 2020/09/01 3.48 Babel common definitions
 \babel@savecnt=\count305
 \U@D=\dimen183
 \l@babelnohyphens=\language4
@@ -775,7 +775,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.
 def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -815,7 +815,7 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \tileX=\skip268
 \tileY=\skip269
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 1564.
+Package hyperref Info: Option `colorlinks' set `true' on input line 1588.
 \mybox=\box53
 \myboxlen=\skip270
 ) (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
@@ -1017,11 +1017,11 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \AM@templatesizebox=\box61
 ) (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lipsum/lipsum.sty 
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-08-07 L3 programming layer (loader) 
+Package: expl3 2020-09-06 L3 programming layer (loader) 
 
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-
-pdfmode.def
-File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+pdftex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count384
 \l__pdf_internal_box=\box62
 ))
@@ -1516,7 +1516,7 @@ ion package take over. Remember: all caption configuration now goves via the ca
 ption package interface, not the interface from the memoir class. .
 
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/08/30 v3.5 Customizing captions (AR)
+Package: caption 2020/09/02 v3.5a Customizing captions (AR)
 
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
@@ -1710,7 +1710,7 @@ def
 File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
 )
 Package biblatex Info: expl3
-(biblatex)             2020-08-07 L3 programming layer (loader) 
+(biblatex)             2020-09-06 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 Package biblatex Info: Trying to load expl3 case changing code...
@@ -2100,12 +2100,12 @@ Package pdftex.def Info: 11-importedfigures/capaufpr.jpg  used on input line 12
 {/Users/jacksontorres/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.
 map} <./11-importedfigures/capaufpr.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-25.
+26.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-25.
+26.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2114,27 +2114,27 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-25.
+26.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-125.
+126.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-125.
+126.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 125.
+(Font)              <12> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 125.
+(Font)              <8> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 125.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125
+(Font)              <6> on input line 126.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126
 .
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2142,7 +2142,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126
 .
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2153,47 +2153,47 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 
+l.126 
        [1
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
 
-Overfull \hbox (16.34634pt too wide) in paragraph at lines 128--128
+Overfull \hbox (16.34634pt too wide) in paragraph at lines 129--129
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 128.
+(Font)              <10> on input line 129.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 128.
+(Font)              <7> on input line 129.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 128.
+(Font)              <5> on input line 129.
 [2] [3
 
 
@@ -2202,7 +2202,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 147.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 148.
 [5
 
 ] [6
@@ -2221,7 +2221,7 @@ Package babel Info: Importing data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
 Package babel Info: \l@french = using hyphenrules for portuguese
-(babel)             (\language3) on input line 208.
+(babel)             (\language3) on input line 209.
 
 Package biblatex Warning: File 'french-abnt.lbx' not found!
 (biblatex)                Ignoring mapping 'french' -> 'french-abnt'.
@@ -2241,7 +2241,7 @@ Package babel Info: Importing data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
 )
 Package babel Info: \l@spanish = using hyphenrules for portuguese
-(babel)             (\language3) on input line 208.
+(babel)             (\language3) on input line 209.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-abnt'...
 Package biblatex Info: ... file 'spanish-abnt.lbx' found.
 
@@ -2288,7 +2288,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ] [20
 
-] [21
+] [21] [22
 
 ]
 \openout2 = `03-tex-files/abntex2-modelo-include-comandos.aux'.
@@ -2299,18 +2299,19 @@ Overfull \hbox (20.47523pt too wide) in paragraph at lines 60--60
 deve-se observar[] 
  []
 
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 78.
-[22
+[23
 
 
 ]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 78.
+
 Underfull \hbox (badness 3954) in paragraph at lines 116--116
 []|\T1/phv/b/n/10 Sistemas de
  []
 
-[23]
-<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=364, 847.165pt x 314.173
+[24] [25]
+<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=374, 847.165pt x 314.173
 75pt>
 File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
@@ -2324,7 +2325,7 @@ File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf  use
 d on input line 226.
 (pdftex.def)             Requested size: 454.99329pt x 168.73566pt.
-<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=367, page=1, 847.165pt x
+<11-importedfigures/abntex2-modelo-img-grafico.pdf, id=377, page=1, 847.165pt x
  314.17375pt>
 File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
@@ -2351,26 +2352,26 @@ Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf , pa
 ge1 used on input line 226.
 (pdftex.def)             Requested size: 423.58145pt x 157.08649pt.
 
-LaTeX Warning: Reference `fig_minipage_imagem1' on page 24 undefined on input l
+LaTeX Warning: Reference `fig_minipage_imagem1' on page 26 undefined on input l
 ine 237.
 
 
-LaTeX Warning: Reference `fig_minipage_grafico2' on page 24 undefined on input 
+LaTeX Warning: Reference `fig_minipage_grafico2' on page 26 undefined on input 
 line 237.
 
 File: 11-importedfigures/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
 <use 11-importedfigures/abntex2-modelo-img-grafico.pdf, page 1>
 Package pdftex.def Info: 11-importedfigures/abntex2-modelo-img-grafico.pdf , pa
-ge1 used on input line 271.
+ge1 used on input line 282.
 (pdftex.def)             Requested size: 423.58145pt x 157.08649pt.
-[24 <./11-importedfigures/abntex2-modelo-img-grafico.pdf>] [25] [26]
+[26 <./11-importedfigures/abntex2-modelo-img-grafico.pdf>] [27]
 Overfull \hbox (26.65024pt too wide) in paragraph at lines 382--382
 []   \T1/lmtt/m/n/12 \usepackage{indentfirst}      % Indenta o primeiro parágra
 fo de cada seção.[] 
  []
 
-[27]
+[28] [29]
 Overfull \hbox (1.95023pt too wide) in paragraph at lines 452--452
 []   \T1/lmtt/m/n/12 makeindex ARQUIVO_PRINCIPAL.nlo -s nomencl.ist -o ARQUIVO_
 PRINCIPAL.nls[] 
@@ -2382,7 +2383,7 @@ Overfull \hbox (8.12523pt too wide) in paragraph at lines 474--474
 presentamos um[] 
  []
 
-[28]
+[30]
 Overfull \hbox (26.65024pt too wide) in paragraph at lines 476--476
 []\T1/lmtt/m/n/12 \autoref{cap_exemplos}, que tem o nome \emph{\nameref{cap_exe
 mplos}}. O número[] 
@@ -2400,7 +2401,7 @@ Overfull \hbox (26.65024pt too wide) in paragraph at lines 481--481
 es internas entre[] 
  []
 
-[29] [30] [31]
+[31] [32] [33] [34]
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
 689.
 (/Users/jacksontorres/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
@@ -2411,168 +2412,166 @@ Underfull \hbox (badness 3503) in paragraph at lines 726--728
 github . com / abntex / abntex2 / wiki /
  []
 
-) [32] [33
+) [35] [36] [37
 
 
-] [34
+] [38
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 388.
-<thesis_files/figure-latex/unnamed-chunk-6-1.pdf, id=544, 355.3275pt x 352.3162
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 389.
+[39
+
+]
+<thesis_files/figure-latex/unnamed-chunk-6-1.pdf, id=566, 355.3275pt x 352.3162
 5pt>
 File: thesis_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-6-1.pdf  used 
-on input line 425.
+on input line 426.
 (pdftex.def)             Requested size: 355.32661pt x 352.31538pt.
-[35
-
-]
-<thesis_files/figure-latex/unnamed-chunk-7-1.pdf, id=550, 275.0275pt x 284.0612
+[40 <./thesis_files/figure-latex/unnamed-chunk-6-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-7-1.pdf, id=582, 275.0275pt x 284.0612
 5pt>
 File: thesis_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-7-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-7-1.pdf  used 
-on input line 447.
+on input line 448.
 (pdftex.def)             Requested size: 275.052pt x 284.08653pt.
-[36 <./thesis_files/figure-latex/unnamed-chunk-6-1.pdf>] [37 <./thesis_files/fi
-gure-latex/unnamed-chunk-7-1.pdf>]
-<thesis_files/figure-latex/unnamed-chunk-11-1.pdf, id=582, 320.19624pt x 287.07
-25pt>
+[41 <./thesis_files/figure-latex/unnamed-chunk-7-1.pdf>] [42]
+<thesis_files/figure-latex/unnamed-chunk-11-1.pdf, id=604, 320.19624pt x 288.07
+625pt>
 File: thesis_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-11-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-11-1.pdf  used
- on input line 550.
-(pdftex.def)             Requested size: 320.20033pt x 287.07617pt.
-[38] [39 <./thesis_files/figure-latex/unnamed-chunk-11-1.pdf>]
-<thesis_files/figure-latex/unnamed-chunk-13-1.pdf, id=602, 332.24126pt x 322.20
+ on input line 551.
+(pdftex.def)             Requested size: 320.20033pt x 288.07993pt.
+[43 <./thesis_files/figure-latex/unnamed-chunk-11-1.pdf>] [44]
+<thesis_files/figure-latex/unnamed-chunk-13-1.pdf, id=623, 332.24126pt x 322.20
 375pt>
 File: thesis_files/figure-latex/unnamed-chunk-13-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-13-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-13-1.pdf  used
- on input line 645.
+ on input line 646.
 (pdftex.def)             Requested size: 332.25563pt x 322.2177pt.
-[40] [41 <./thesis_files/figure-latex/unnamed-chunk-13-1.pdf>] [42] [43]
-<thesis_files/figure-latex/unnamed-chunk-20-1.pdf, id=637, 256.96pt x 214.8025p
+[45] [46 <./thesis_files/figure-latex/unnamed-chunk-13-1.pdf>] [47] [48] [49]
+<thesis_files/figure-latex/unnamed-chunk-20-1.pdf, id=663, 256.96pt x 214.8025p
 t>
 File: thesis_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-20-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-20-1.pdf  used
- on input line 866.
+ on input line 867.
 (pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
-[44]
-<thesis_files/figure-latex/unnamed-chunk-21-1.pdf, id=643, 256.96pt x 214.8025p
+[50 <./thesis_files/figure-latex/unnamed-chunk-20-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-21-1.pdf, id=675, 256.96pt x 214.8025p
 t>
 File: thesis_files/figure-latex/unnamed-chunk-21-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-21-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-21-1.pdf  used
- on input line 888.
+ on input line 889.
 (pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
-[45 <./thesis_files/figure-latex/unnamed-chunk-20-1.pdf> <./thesis_files/figure
--latex/unnamed-chunk-21-1.pdf>]
-<thesis_files/figure-latex/unnamed-chunk-22-1.pdf, id=662, 256.96pt x 214.8025p
+<thesis_files/figure-latex/unnamed-chunk-22-1.pdf, id=676, 256.96pt x 214.8025p
 t>
 File: thesis_files/figure-latex/unnamed-chunk-22-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-22-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-22-1.pdf  used
- on input line 896.
+ on input line 897.
 (pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
-<thesis_files/figure-latex/unnamed-chunk-23-1.pdf, id=663, 256.96pt x 178.6675p
+[51 <./thesis_files/figure-latex/unnamed-chunk-21-1.pdf>] [52 <./thesis_files/f
+igure-latex/unnamed-chunk-22-1.pdf>]
+<thesis_files/figure-latex/unnamed-chunk-23-1.pdf, id=699, 256.96pt x 178.6675p
 t>
 File: thesis_files/figure-latex/unnamed-chunk-23-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-23-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-23-1.pdf  used
- on input line 926.
+ on input line 927.
 (pdftex.def)             Requested size: 256.97112pt x 178.67523pt.
-[46 <./thesis_files/figure-latex/unnamed-chunk-22-1.pdf>]
-<thesis_files/figure-latex/unnamed-chunk-24-1.pdf, id=675, 256.96pt x 214.8025p
+<thesis_files/figure-latex/unnamed-chunk-24-1.pdf, id=700, 256.96pt x 214.8025p
 t>
 File: thesis_files/figure-latex/unnamed-chunk-24-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/unnamed-chunk-24-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/unnamed-chunk-24-1.pdf  used
- on input line 949.
+ on input line 950.
 (pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
-[47 <./thesis_files/figure-latex/unnamed-chunk-23-1.pdf> <./thesis_files/figure
--latex/unnamed-chunk-24-1.pdf>]
-<thesis_files/figure-latex/lmBothChunk-1.pdf, id=695, 256.96pt x 214.8025pt>
+[53 <./thesis_files/figure-latex/unnamed-chunk-23-1.pdf>]
+<thesis_files/figure-latex/lmBothChunk-1.pdf, id=713, 256.96pt x 214.8025pt>
 File: thesis_files/figure-latex/lmBothChunk-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/lmBothChunk-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/lmBothChunk-1.pdf  used on i
-nput line 975.
+nput line 976.
 (pdftex.def)             Requested size: 256.96327pt x 214.80524pt.
-
-Overfull \hbox (32.82524pt too wide) in paragraph at lines 987--987
+[54 <./thesis_files/figure-latex/unnamed-chunk-24-1.pdf>]
+Overfull \hbox (32.82524pt too wide) in paragraph at lines 988--988
 []\T1/lmtt/m/n/12 ##                                Estimate   Std. Error    t 
 value     Pr(>|t|)[] 
  []
 
 
-Overfull \hbox (32.76921pt too wide) in paragraph at lines 988--988
+Overfull \hbox (32.76921pt too wide) in paragraph at lines 989--989
 []\T1/lmtt/m/n/12 ## (Intercept)                603.50579986 171.05519432  3.52
 81349 0.0004386682[] 
  []
 
 
-Overfull \hbox (32.76921pt too wide) in paragraph at lines 989--989
+Overfull \hbox (32.76921pt too wide) in paragraph at lines 990--990
 []\T1/lmtt/m/n/12 ## hunger$Year                 -0.29339638   0.08546675 -3.43
 28718 0.0006231690[] 
  []
 
 
-Overfull \hbox (32.7622pt too wide) in paragraph at lines 990--990
+Overfull \hbox (32.7622pt too wide) in paragraph at lines 991--991
 []\T1/lmtt/m/n/12 ## hunger$SexMale              61.94771998 241.90857572  0.25
 60791 0.7979455842[] 
  []
 
 
-Overfull \hbox (32.81123pt too wide) in paragraph at lines 991--991
+Overfull \hbox (32.81123pt too wide) in paragraph at lines 992--992
 []\T1/lmtt/m/n/12 ## hunger$Year:hunger$SexMale  -0.03000132   0.12086823 -0.24
 82151 0.8040219874[] 
  []
 
-[48 <./thesis_files/figure-latex/lmBothChunk-1.pdf>] [49] [50
+[55 <./thesis_files/figure-latex/lmBothChunk-1.pdf>] [56] [57
 
-] [51
+] [58
 
-] [52
+] [59] [60
 
-] [53
+] [61
 
-] [54
+] [62
+
+] [63
 
 ] 
 AED: lastpage setting LastPage
-[55
-
-]
+[64]
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
 \tf@toc=\write10
 \openout10 = `thesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1084.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1084.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1085.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1085.
 (./thesis.aux (./03-tex-files/abntex2-modelo-include-comandos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1084.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1084.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1085.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1085.
 
 LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1084.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1085.
  ) 
 Here is how much of TeX's memory you used:
- 42959 strings out of 482821
- 784152 string characters out of 5954238
- 1745066 words of memory out of 5000000
- 56991 multiletter control sequences out of 15000+600000
+ 42987 strings out of 482804
+ 784618 string characters out of 5953754
+ 1747539 words of memory out of 5000000
+ 57027 multiletter control sequences out of 15000+600000
  614356 words of font info for 255 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,19n,117p,1151b,4211s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,20n,117p,1151b,4211s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 }{/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 }{/Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
@@ -2598,10 +2597,10 @@ jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
 Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
 pfb></Users/jacksontorres/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/u
 hvro8a.pfb>
-Output written on thesis.pdf (56 pages, 3845467 bytes).
+Output written on thesis.pdf (65 pages, 3849396 bytes).
 PDF statistics:
- 1102 PDF objects out of 1200 (max. 8388607)
- 959 compressed objects within 10 object streams
- 215 named destinations out of 1000 (max. 500000)
+ 1150 PDF objects out of 1200 (max. 8388607)
+ 998 compressed objects within 10 object streams
+ 224 named destinations out of 1000 (max. 500000)
  29420 words of extra memory for PDF output out of 29859 (max. 10000000)
 
